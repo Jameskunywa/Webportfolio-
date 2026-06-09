@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    transition:0.4s;
+}
+
+body.light{
+    background:white;
+    color:black;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    position:sticky;
+    top:0;
+    background:#111;
+}
+
+.logo{
+    color:limegreen;
+}
+
+.controls i{
+    margin-left:15px;
+    cursor:pointer;
+    font-size:22px;
+}
+
+#menu{
+    display:none;
+    position:absolute;
+    top:70px;
+    right:20px;
+    background:#222;
+    border-radius:10px;
+    padding:15px;
+}
+
+#menu.show{
+    display:flex;
+    flex-direction:column;
+}
+
+#menu a{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}
+
+section{
+    min-height:100vh;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid limegreen;
+}
+
+h1{
+    margin-top:20px;
+    font-size:40px;
+}
+
+#typing{
+    color:limegreen;
+}
+
+p{
+    margin-top:20px;
+    line-height:1.7;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:limegreen;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.skill{
+    max-width:500px;
+    margin:25px auto;
+    text-align:left;
+}
+
+.skill p{
+    margin-bottom:8px;
+}
+
+.progress{
+    width:100%;
+    height:12px;
+    background:#444;
+    border-radius:20px;
+}
+
+.bar{
+    height:12px;
+    background:limegreen;
+    border-radius:20px;
+}
+
+.html{
+    width:90%;
+}
+
+.css{
+    width:85%;
+}
+
+.js{
+    width:80%;
+}
+
+#contact p{
+    font-size:18px;
+}
